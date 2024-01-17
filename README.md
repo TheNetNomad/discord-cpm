@@ -3,12 +3,12 @@
 Have you ever wanted to run a CP/M program in a Discord server? I think everyone has had this urge once or twice in their life. [iz-cpm] is an awesome emulator allowing you to run CP/M programs in your terminal. Discord iz-cpm Wrapper is a Discord bot that kicks off iz-cpm as a child process and lets you use a Discord channel as your terminal. Just update BOT_CHANNEL_ID, BOT_CLIENT_ID, and PROGRAM_NAME and you're off to the races!
 
 ## Dependencies
--iz-cpm
--unbuffer (if not already bundled with your server distro)
--node
-  -discord.js
-  -child_process
-  -node-fetch
+- iz-cpm
+- unbuffer (if not already bundled with your server distro)
+- node
+  - discord.js
+  - child_process
+  - node-fetch
 
 ## Disclaimers 
 - This project not associated with the creators of iz80 or iz80-cpm
